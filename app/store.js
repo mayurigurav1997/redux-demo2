@@ -8,8 +8,8 @@ const userReducer = require('../features/user/userSlice')
 const store = configureStore({
     reducer: {
         cake: cakeReducer,
-        icecream: icecreamReducer,
-        user: userReducer
+        // icecream: icecreamReducer,
+        // user: userReducer
     }
     // middleware: getDefaultMiddleware => getDefaultMiddleware().concat(logger)
 })
